@@ -1,0 +1,15 @@
+GET http://localhost:3000/people
+###
+POST http://localhost:3000/people/
+Content-Type: application/json
+
+{
+    "name": "Ayo updated",
+    "age": 40,
+    "sex": "male",
+    "complexion": "dark",
+    "height": 98,
+    "race": "black"
+}
+###
+DELETE http://localhost:3000/people/5fb84f26245315234c43e23f
